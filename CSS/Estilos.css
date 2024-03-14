@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: rgb(239, 238, 238);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 20px;
+    width: 200px;
+}
+.menu{
+    margin-right: 20px;
+    width: 600px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+.lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item{
+    list-style: none;
+    margin-right: 10px;
+}
+.link{
+    text-decoration: none;
+    color: rgb(174, 174, 174);
+    font-size: 30px;
+    padding: 10px;
+}
+.--inicio{
+    color: black;
+    font-weight: 600;
+}
+.banner{
+    background-image: url(../Ejercicio_fruta&fruto/img/banner.png);
+    height: calc(100vh - 130px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 6rem;
+    text-shadow: 0.1rem 0.3rem 0.5rem black;
+    font-weight: 300;
+    margin-top: 10rem;
+}
+.contenido{
+    background-color: white;
+    display: flex;
+    height: 20rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.titulocontenido{
+    font-family: 'Pacifico', cursive;
+    font-size: 4rem;
+    color: rgb(213, 3, 3);
+    font-weight: 200;
+}
+.contparrafo{
+    width: 85%;
+}
+.parrafocontenido{
+    font-size: 3rem;
+    text-align: center;
+    color: rgb(176, 174, 174);
+    margin-bottom: 1.5rem;
+}
+.recetas{
+    background-color: rgb(246, 218, 181);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cardrecetas{
+    background-color: white;
+    width: 25%;
+    margin: 3rem 3rem;
+    border: 1px solid rgb(214, 214, 214);
+}
+.imgreceta{
+    width: 100%;    
+}
+.contenidoreceta{
+    width: 90%;
+    margin: 1rem;
+}
+.tituloreceta{
+    font-size: 2rem;
+    font-weight: 100;
+}
+.descripcion{
+    text-align: justify;
+    font-size: 1.5rem;
+    color: rgb(96, 95, 95);
+}
+.inforeceta{
+    background-color: rgb(255, 170, 0);
+    color: white;
+    padding: 0.7rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 0.8rem;
+    border: 0px solid red;
+    margin-left: 10%;
+    cursor: pointer;
+}
+@media(max-width:576px){
+    header{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
